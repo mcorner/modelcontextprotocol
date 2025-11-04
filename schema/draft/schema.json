@@ -167,6 +167,10 @@
                 "_meta": {
                     "additionalProperties": {},
                     "description": "See [General fields: `_meta`](/specification/draft/basic/index#meta) for notes on `_meta` usage.",
+                    "properties": {
+                        "modelcontextprotocol.io/state/server": {},
+                        "modelcontextprotocol.io/state/session": {}
+                    },
                     "type": "object"
                 },
                 "content": {
@@ -417,6 +421,10 @@
                 "_meta": {
                     "additionalProperties": {},
                     "description": "See [General fields: `_meta`](/specification/draft/basic/index#meta) for notes on `_meta` usage.",
+                    "properties": {
+                        "modelcontextprotocol.io/state/server": {},
+                        "modelcontextprotocol.io/state/session": {}
+                    },
                     "type": "object"
                 },
                 "completion": {
@@ -547,6 +555,10 @@
                 "_meta": {
                     "additionalProperties": {},
                     "description": "See [General fields: `_meta`](/specification/draft/basic/index#meta) for notes on `_meta` usage.",
+                    "properties": {
+                        "modelcontextprotocol.io/state/server": {},
+                        "modelcontextprotocol.io/state/session": {}
+                    },
                     "type": "object"
                 },
                 "content": {
@@ -653,6 +665,10 @@
                 "_meta": {
                     "additionalProperties": {},
                     "description": "See [General fields: `_meta`](/specification/draft/basic/index#meta) for notes on `_meta` usage.",
+                    "properties": {
+                        "modelcontextprotocol.io/state/server": {},
+                        "modelcontextprotocol.io/state/session": {}
+                    },
                     "type": "object"
                 },
                 "action": {
@@ -819,6 +835,10 @@
                 "_meta": {
                     "additionalProperties": {},
                     "description": "See [General fields: `_meta`](/specification/draft/basic/index#meta) for notes on `_meta` usage.",
+                    "properties": {
+                        "modelcontextprotocol.io/state/server": {},
+                        "modelcontextprotocol.io/state/session": {}
+                    },
                     "type": "object"
                 },
                 "description": {
@@ -998,6 +1018,10 @@
                 "_meta": {
                     "additionalProperties": {},
                     "description": "See [General fields: `_meta`](/specification/draft/basic/index#meta) for notes on `_meta` usage.",
+                    "properties": {
+                        "modelcontextprotocol.io/state/server": {},
+                        "modelcontextprotocol.io/state/session": {}
+                    },
                     "type": "object"
                 },
                 "capabilities": {
@@ -1039,6 +1063,10 @@
                         "_meta": {
                             "additionalProperties": {},
                             "description": "See [General fields: `_meta`](/specification/draft/basic/index#meta) for notes on `_meta` usage.",
+                            "properties": {
+                                "modelcontextprotocol.io/state/server": {},
+                                "modelcontextprotocol.io/state/session": {}
+                            },
                             "type": "object"
                         }
                     },
@@ -1105,6 +1133,10 @@
                         "_meta": {
                             "additionalProperties": {},
                             "description": "See [General fields: `_meta`](/specification/draft/basic/index#meta) for notes on `_meta` usage.",
+                            "properties": {
+                                "modelcontextprotocol.io/state/server": {},
+                                "modelcontextprotocol.io/state/session": {}
+                            },
                             "type": "object"
                         }
                     },
@@ -1137,6 +1169,8 @@
                             "additionalProperties": {},
                             "description": "See [General fields: `_meta`](/specification/draft/basic/index#meta) for notes on `_meta` usage.",
                             "properties": {
+                                "modelcontextprotocol.io/state/server": {},
+                                "modelcontextprotocol.io/state/session": {},
                                 "progressToken": {
                                     "$ref": "#/definitions/ProgressToken",
                                     "description": "If specified, the caller is requesting out-of-band progress notifications for this request (as represented by notifications/progress). The value of this parameter is an opaque token that will be attached to any subsequent notifications. The receiver is not obligated to provide these notifications."
@@ -1213,6 +1247,10 @@
                 "_meta": {
                     "additionalProperties": {},
                     "description": "See [General fields: `_meta`](/specification/draft/basic/index#meta) for notes on `_meta` usage.",
+                    "properties": {
+                        "modelcontextprotocol.io/state/server": {},
+                        "modelcontextprotocol.io/state/session": {}
+                    },
                     "type": "object"
                 },
                 "nextCursor": {
@@ -1268,6 +1306,10 @@
                 "_meta": {
                     "additionalProperties": {},
                     "description": "See [General fields: `_meta`](/specification/draft/basic/index#meta) for notes on `_meta` usage.",
+                    "properties": {
+                        "modelcontextprotocol.io/state/server": {},
+                        "modelcontextprotocol.io/state/session": {}
+                    },
                     "type": "object"
                 },
                 "nextCursor": {
@@ -1323,6 +1365,10 @@
                 "_meta": {
                     "additionalProperties": {},
                     "description": "See [General fields: `_meta`](/specification/draft/basic/index#meta) for notes on `_meta` usage.",
+                    "properties": {
+                        "modelcontextprotocol.io/state/server": {},
+                        "modelcontextprotocol.io/state/session": {}
+                    },
                     "type": "object"
                 },
                 "nextCursor": {
@@ -1362,6 +1408,8 @@
                             "additionalProperties": {},
                             "description": "See [General fields: `_meta`](/specification/draft/basic/index#meta) for notes on `_meta` usage.",
                             "properties": {
+                                "modelcontextprotocol.io/state/server": {},
+                                "modelcontextprotocol.io/state/session": {},
                                 "progressToken": {
                                     "$ref": "#/definitions/ProgressToken",
                                     "description": "If specified, the caller is requesting out-of-band progress notifications for this request (as represented by notifications/progress). The value of this parameter is an opaque token that will be attached to any subsequent notifications. The receiver is not obligated to provide these notifications."
@@ -1386,6 +1434,10 @@
                 "_meta": {
                     "additionalProperties": {},
                     "description": "See [General fields: `_meta`](/specification/draft/basic/index#meta) for notes on `_meta` usage.",
+                    "properties": {
+                        "modelcontextprotocol.io/state/server": {},
+                        "modelcontextprotocol.io/state/session": {}
+                    },
                     "type": "object"
                 },
                 "roots": {
@@ -1437,6 +1489,10 @@
                 "_meta": {
                     "additionalProperties": {},
                     "description": "See [General fields: `_meta`](/specification/draft/basic/index#meta) for notes on `_meta` usage.",
+                    "properties": {
+                        "modelcontextprotocol.io/state/server": {},
+                        "modelcontextprotocol.io/state/session": {}
+                    },
                     "type": "object"
                 },
                 "nextCursor": {
@@ -1560,6 +1616,10 @@
                         "_meta": {
                             "additionalProperties": {},
                             "description": "See [General fields: `_meta`](/specification/draft/basic/index#meta) for notes on `_meta` usage.",
+                            "properties": {
+                                "modelcontextprotocol.io/state/server": {},
+                                "modelcontextprotocol.io/state/session": {}
+                            },
                             "type": "object"
                         }
                     },
@@ -1635,6 +1695,10 @@
                 "_meta": {
                     "additionalProperties": {},
                     "description": "See [General fields: `_meta`](/specification/draft/basic/index#meta) for notes on `_meta` usage.",
+                    "properties": {
+                        "modelcontextprotocol.io/state/server": {},
+                        "modelcontextprotocol.io/state/session": {}
+                    },
                     "type": "object"
                 },
                 "nextCursor": {
@@ -1665,6 +1729,8 @@
                             "additionalProperties": {},
                             "description": "See [General fields: `_meta`](/specification/draft/basic/index#meta) for notes on `_meta` usage.",
                             "properties": {
+                                "modelcontextprotocol.io/state/server": {},
+                                "modelcontextprotocol.io/state/session": {},
                                 "progressToken": {
                                     "$ref": "#/definitions/ProgressToken",
                                     "description": "If specified, the caller is requesting out-of-band progress notifications for this request (as represented by notifications/progress). The value of this parameter is an opaque token that will be attached to any subsequent notifications. The receiver is not obligated to provide these notifications."
@@ -1833,6 +1899,10 @@
                         "_meta": {
                             "additionalProperties": {},
                             "description": "See [General fields: `_meta`](/specification/draft/basic/index#meta) for notes on `_meta` usage.",
+                            "properties": {
+                                "modelcontextprotocol.io/state/server": {},
+                                "modelcontextprotocol.io/state/session": {}
+                            },
                             "type": "object"
                         }
                     },
@@ -1925,6 +1995,10 @@
                 "_meta": {
                     "additionalProperties": {},
                     "description": "See [General fields: `_meta`](/specification/draft/basic/index#meta) for notes on `_meta` usage.",
+                    "properties": {
+                        "modelcontextprotocol.io/state/server": {},
+                        "modelcontextprotocol.io/state/session": {}
+                    },
                     "type": "object"
                 },
                 "contents": {
@@ -1958,6 +2032,8 @@
                             "additionalProperties": {},
                             "description": "See [General fields: `_meta`](/specification/draft/basic/index#meta) for notes on `_meta` usage.",
                             "properties": {
+                                "modelcontextprotocol.io/state/server": {},
+                                "modelcontextprotocol.io/state/session": {},
                                 "progressToken": {
                                     "$ref": "#/definitions/ProgressToken",
                                     "description": "If specified, the caller is requesting out-of-band progress notifications for this request (as represented by notifications/progress). The value of this parameter is an opaque token that will be attached to any subsequent notifications. The receiver is not obligated to provide these notifications."
@@ -2128,6 +2204,10 @@
                         "_meta": {
                             "additionalProperties": {},
                             "description": "See [General fields: `_meta`](/specification/draft/basic/index#meta) for notes on `_meta` usage.",
+                            "properties": {
+                                "modelcontextprotocol.io/state/server": {},
+                                "modelcontextprotocol.io/state/session": {}
+                            },
                             "type": "object"
                         }
                     },
@@ -2244,6 +2324,10 @@
                 "_meta": {
                     "additionalProperties": {},
                     "description": "See [General fields: `_meta`](/specification/draft/basic/index#meta) for notes on `_meta` usage.",
+                    "properties": {
+                        "modelcontextprotocol.io/state/server": {},
+                        "modelcontextprotocol.io/state/session": {}
+                    },
                     "type": "object"
                 }
             },
@@ -2297,6 +2381,10 @@
                         "_meta": {
                             "additionalProperties": {},
                             "description": "See [General fields: `_meta`](/specification/draft/basic/index#meta) for notes on `_meta` usage.",
+                            "properties": {
+                                "modelcontextprotocol.io/state/server": {},
+                                "modelcontextprotocol.io/state/session": {}
+                            },
                             "type": "object"
                         }
                     },
@@ -2767,6 +2855,10 @@
                         "_meta": {
                             "additionalProperties": {},
                             "description": "See [General fields: `_meta`](/specification/draft/basic/index#meta) for notes on `_meta` usage.",
+                            "properties": {
+                                "modelcontextprotocol.io/state/server": {},
+                                "modelcontextprotocol.io/state/session": {}
+                            },
                             "type": "object"
                         }
                     },
